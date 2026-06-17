@@ -13,9 +13,9 @@ df = pd.DataFrame(data)
 new_row = {"Name": "Frank", "Age": 50, "City": "Philadelphia"}
 df.loc[len(df.index)] = new_row
 
-# # Add another new row to the DataFrame
-# another_new_row = {"Name": "Grace", "Age": 28, "City": "San Francisco"}
-# df.loc[len(df.index)] = another_new_row
+# Add another new row to the DataFrame
+another_new_row = {"Name": "Grace", "Age": 28, "City": "San Francisco"}
+df.loc[len(df.index)] = another_new_row
 
 file_path = os.path.join("data", "people_data.csv")
 
